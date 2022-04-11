@@ -7,7 +7,6 @@ import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 
 @Getter
-@Builder
 public class PartnerInfo {
     private Long id;
     private String partnerToken;
